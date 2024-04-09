@@ -14,7 +14,7 @@ import java.util.Collection;
 @RequestMapping("/exam/java")
 public class JavaQuestionController{
 
-    QuestionService service;
+    private QuestionService service;
 
     public JavaQuestionController(QuestionService service) {
         this.service = service;

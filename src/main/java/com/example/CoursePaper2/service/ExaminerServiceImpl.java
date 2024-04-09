@@ -12,9 +12,9 @@ import java.util.Set;
 @Service
 public class ExaminerServiceImpl implements ExaminerService{
 
-    Random random;
+    private Random random;
 
-    QuestionService questionService;
+    private QuestionService questionService;
 
     public ExaminerServiceImpl(QuestionService questionService) {
         this.random = new Random();

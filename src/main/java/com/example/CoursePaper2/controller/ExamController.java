@@ -13,7 +13,7 @@ import java.util.Collection;
 @RequestMapping("/exam/java")
 public class ExamController {
 
-    ExaminerService examinerService;
+    private ExaminerService examinerService;
 
     public ExamController(ExaminerService examinerService) {
         this.examinerService = examinerService;
